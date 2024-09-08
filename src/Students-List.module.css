@@ -1,0 +1,92 @@
+.container {
+    padding: 20px;
+}
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.listcontainer {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+.searchInput {
+  width: 98%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+.headerRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 2px solid #ddd;
+  font-weight: bold;
+  font-size: 16px;
+  align-items: center;
+}
+.header {
+  width: 33%;
+  text-align: center; 
+}
+.studentList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.studentItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  padding: 10px 0px;
+  border-bottom: 1px solid #eee;
+}
+.studentLink {
+  display: flex;
+  width: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+.details {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.pupilInfo {
+  display: flex;
+  align-items: center;
+  width: 33%; 
+  justify-content: flex-start;
+}
+.studentImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.name {
+  font-size: 16px;
+  font-weight: bold;
+}
+.formSection {
+  width: 33%;
+  text-align: center;
+  color: #555;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+.sendSection {
+  width: 33%;
+  color: #555;
+  display: flex;
+  justify-content:center; 
+  align-items: center;
+}
+.checkmark {
+  color: green;
+  font-size: 16px;
+}
